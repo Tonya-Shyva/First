@@ -1,0 +1,71 @@
+.sidebar {
+	background-color: $sidebar-bg-color;
+	// padding-top: 40px;
+	width: 370px;
+}
+
+.photo {
+	display: block;
+	margin: auto;
+	max-width: 370px;
+	margin-bottom: 50px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+	padding-left: 40px;
+}
+
+.contacts {
+	margin-bottom: 50px;
+}
+
+.sidebar-title {
+	font-size: 22px;
+	line-height: 1.23;
+	color: $sidebar-color;
+	margin-bottom: 10px;
+}
+
+.contact-type {
+	font-size: 14px;
+	line-height: 1.71;
+	color: $sidebar-color;
+	margin-right: 10px;
+}
+
+.contact-link {
+	font-size: 14px;
+	line-height: 1.71;
+	color: $sidebar-color;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+	color: $primary-color;
+}
+
+.tech-skills {
+	margin-bottom: 45px;
+	margin-right: 210px;
+}
+
+.soft-skills {
+	margin-bottom: 365px;
+	margin-right: 215px;
+}
+.skills-list {
+	color: $sidebar-color;
+	padding: 0;
+	margin-left: 15px;
+}
+
+.skills-item {
+	color: $accent-color;
+}
+.skills-text {
+	color: $sidebar-color;
+	font-size: 14px;
+	line-height: 1.71;
+}

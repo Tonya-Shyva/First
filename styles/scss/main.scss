@@ -1,3 +1,5 @@
-@import url("../scss/base/common");
-@import url("../scss/utils/var");
-@import url("../scss/utils/_mixins.scss");
+@import "./utils/var";
+@import "./base/common";
+@import "./utils/mixins";
+@import "./layout/main-content";
+@import "./layout/sidebar";
